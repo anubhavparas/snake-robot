@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- Name your robot here -->
+<robot name ="snakebot" xmlns:xacro="http://wiki.ros.org/xacro">
+
+	<xacro:include filename="$(find snakebot)/urdf/snakebot.urdf"/>
+
+    <!-- Add your gazebo sensors here -->
+    <xacro:macro name="joint_transmission" params="joint_num">
+        <transmission name="joint_{joint_num}_trans">
+            <type>transmission_interface/SimpleTransmission</type>
+            <joint name="rod_${joint_num}_joint">
+                <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            </joint>
+            <actuator name="motor_${joint_num}">
+                <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+                <mechanicalReduction>1</mechanicalReduction>
+            </actuator>
+        </transmission>
+    </xacro:macro>
+    
+    <joint_transmission joint_num="one"/>
+    <!--<joint_transmission joint_num="two"/> -->
+    <joint_transmission joint_num="three"/>
+    <joint_transmission joint_num="four"/>
+    <joint_transmission joint_num="five"/>
+    <joint_transmission joint_num="six"/>
+    <joint_transmission joint_num="seven"/>
+    <joint_transmission joint_num="eight"/>
+    <joint_transmission joint_num="nine"/>
+    <joint_transmission joint_num="ten"/>
+    <joint_transmission joint_num="eleven"/>
+
+    <!--  Gazebo plugin for control here is already added for you -->
+    <gazebo>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/snakebot</robotNamespace>
+            <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+            <legacyModeNS>true</legacyModeNS> 
+        </plugin>
+
+        <plugin name="imu_plugin" filename="libgazebo_ros_imu.so">
+            <alwaysOn>true</alwaysOn>
+            <bodyName>base_link</bodyName>
+            <topicName>imu</topicName>
+            <serviceName>imu_service</serviceName>
+            <gaussianNoise>0.0</gaussianNoise>
+            <updateRate>20.0</updateRate>
+        </plugin>
+    </gazebo>
+
+</robot>	
+
+
