@@ -9,6 +9,6 @@
 - To spawn the controllers and the model in gazebo: $ roslaunch snakebot snakebot.launch
 - To run the gait simulation, for example: to move the snake in the simple linear forward motion:
   - Open a new terminal
-  - Change the directory to /snakeobt_ws
+  - Change the directory to /snakebot_ws
   - $ source devel/setup.bash
   - $ rosrun snakebot linear_progression.py
