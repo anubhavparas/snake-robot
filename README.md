@@ -1,4 +1,4 @@
-## Snake Robot
+## Snake Robot - ROS Controllers
 
 
 ### Instructions to run the code:
