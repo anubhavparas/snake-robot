@@ -14,7 +14,7 @@
   - $ rosrun snakebot linear_progression.py
 ### Results: Output video
 - [All the snake gaits](https://drive.google.com/file/d/1BfiJ1PDn6ounzhUILLyYK5kYYPiaXl7P/view?usp=sharing)
-- [Trannsformer gait](https://drive.google.com/file/d/1lpOsV6T_p5WpRXYhA7TPNdCAyq_wULQ6/view?usp=sharing)
+- [Transformer gait](https://drive.google.com/file/d/1lpOsV6T_p5WpRXYhA7TPNdCAyq_wULQ6/view?usp=sharing)
 
 
 
