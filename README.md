@@ -17,4 +17,13 @@
 - [Transformer gait](https://drive.google.com/file/d/1lpOsV6T_p5WpRXYhA7TPNdCAyq_wULQ6/view?usp=sharing)
 
 
+### References:
+- [https://en.wikipedia.org/wiki/Gait](https://en.wikipedia.org/wiki/Gait)
+- [https://en.wikipedia.org/wiki/Sidewinding](https://en.wikipedia.org/wiki/Sidewinding)
+- [https://www.ivlabs.in/uploads/1/3/0/6/130645069/rebis.pdf](https://www.ivlabs.in/uploads/1/3/0/6/130645069/rebis.pdf)
+- [http://biorobotics.ri.cmu.edu/projects/modsnake/gaits/gaits.html](http://biorobotics.ri.cmu.edu/projects/modsnake/gaits/gaits.html)
+- [https://userweb.ucs.louisiana.edu/~brm2286/locomotn.htm](https://userweb.ucs.louisiana.edu/~brm2286/locomotn.htm)
+- [http://biorobotics.ri.cmu.edu/research/gaitResearch.php](http://biorobotics.ri.cmu.edu/research/gaitResearch.php)
+
+
 
