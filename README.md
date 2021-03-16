@@ -13,8 +13,10 @@
   - $ source devel/setup.bash
   - $ rosrun snakebot linear_progression.py
 ### Results: Output video
-- [All the snake gaits](https://drive.google.com/file/d/1BfiJ1PDn6ounzhUILLyYK5kYYPiaXl7P/view?usp=sharing)
-- [Transformer gait](https://drive.google.com/file/d/1lpOsV6T_p5WpRXYhA7TPNdCAyq_wULQ6/view?usp=sharing)
+
+[![All the snake gaits](https://user-images.githubusercontent.com/32901101/111253024-ca6d4e00-85e8-11eb-8b49-166eb2cf8421.PNG)](https://drive.google.com/file/d/1BfiJ1PDn6ounzhUILLyYK5kYYPiaXl7P/view?usp=sharing)
+
+[![Transformer gait](https://user-images.githubusercontent.com/32901101/111253242-3bad0100-85e9-11eb-8c0c-89df66aeea76.PNG)](https://drive.google.com/file/d/1lpOsV6T_p5WpRXYhA7TPNdCAyq_wULQ6/view?usp=sharing)
 
 
 ### References:
